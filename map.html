@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>艾米尔</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		*{margin: 0;padding: 0;}
+		body{height: 100%;}
+			#allmap{width:100%;height:100%;}
+			.fh11{border: 3px solid #fff;text-decoration:none;display:block;text-align: center; width: 40px;border-radius: 50%; height: 40px;line-height: 40px;background: #f00;color: #fff;position: fixed;right:20px;bottom: 20px;z-index: 9999;}
+		    .fh11:visited{color: #fff;}
+		</style>
+	</head>
+	<body>
+		
+		<div id="allmap">
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZvyKSBDCS8gbej9jDpVROVeHXNNZnAfi"></script>
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(108.952243,34.335362), 19);  // 初始化地图,设置中心点坐标和地图级别
+	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	map.setCurrentCity("西安");          // 设置地图显示的城市 此项是必须设置的
+	map.enableScrollWheelZoom(true);  //开启鼠标滚轮缩放
+	
+    var point = new BMap.Point(108.952243,34.335330);
+	var marker = new BMap.Marker(point);  // 创建标注
+	map.addOverlay(marker);              // 将标注添加到地图中
+
+	var label = new BMap.Label("前小端（凤城一路利君V时代A座）",{offset:new BMap.Size(20,-10)});
+	marker.setLabel(label);
+
+	
+	 var navigationControl = new BMap.NavigationControl({
+    // 靠左上角位置
+    anchor: BMAP_ANCHOR_TOP_LEFT,
+    // LARGE类型
+    type: BMAP_NAVIGATION_CONTROL_LARGE,
+    // 启用显示定位
+    enableGeolocation: true
+  });
+  map.addControl(navigationControl);
+  // 添加定位控件
+  var geolocationControl = new BMap.GeolocationControl();
+  geolocationControl.addEventListener("locationSuccess", function(e){
+    // 定位成功事件
+    var address = '';
+    address += e.addressComponent.province;
+    address += e.addressComponent.city;
+    address += e.addressComponent.district;
+    address += e.addressComponent.street;
+    address += e.addressComponent.streetNumber;
+    alert("当前定位地址为：" + address);
+  });
+  geolocationControl.addEventListener("locationError",function(e){
+    // 定位失败事件
+    alert(e.message);
+  });
+  map.addControl(geolocationControl);
+</script>
+	</body>
+</html>
