@@ -11,3 +11,6 @@
 [My blog](http://www.qianxiaoduan.com/)
 
 ![wordpress企业站模板](https://raw.githubusercontent.com/bin248163/qd/master/images/home.jpg)
+
+### 内容更新
+* 2016.11.21 添加了标题前ico 
