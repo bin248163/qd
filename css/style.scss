@@ -107,8 +107,8 @@ nav{float: right;position: relative;
     a{position: absolute;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 4;}
     p{opacity: 0;filter: alpha(opacity=0);@include hover(.5s);line-height: 60px;text-align:center;font-size: 25px;position:absolute;top: 50%;margin-top: -30px;left: 0;width: 100%;color: #fff;z-index: 2;}
     i{opacity: 0;filter: alpha(opacity=0);font-size: 35px;width: 35px;height: 35px;z-index: 2;position: absolute;left: 20px;bottom: 10px;color: #fff;}
-    &:before{@include hover(.5s);position: absolute;top: 50%;left: 0;content: "";width: calc(100% - 6px);height: 0;border-left: 3px solid #ffe401;border-right: 3px solid #ffe401;z-index:2;}
-    &:after{@include hover(.5s);position: absolute;left: 50%;top: 0;content: "";height: calc(100% - 6px);width: 0;border-top: 3px solid #ffe401;border-bottom: 3px solid #ffe401;z-index:2;}
+    &:before{@include hover(.5s);position: absolute;top: 50%;left: 0;content: "";width: calc(100% - 4px);height: 0;border-left: 2px solid #ffe401;border-right: 2px solid #ffe401;z-index:2;}
+    &:after{@include hover(.5s);position: absolute;left: 50%;top: 0;content: "";height: calc(100% - 4px);width: 0;border-top: 2px solid #ffe401;border-bottom: 2px solid #ffe401;z-index:2;}
     &:hover{
         &:before{height: 100%;top: 0;}
         &:after{width: 100%;left: 0;}
