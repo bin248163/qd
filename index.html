@@ -15,7 +15,7 @@
 		<div class="header">
 			<div class="head">
 				<div class="logo">
-					<a href=""><img src="images/1.png" /></a>	
+					<a href=""><img src="images/1.png" /></a>
 				</div>
 				<div class="logo-r">前小端-前端开发</div>
 				<div class="nav" id="navClick">
@@ -522,12 +522,14 @@
 		};
 	</script>
 	<script>
-		(function() {
-			window.scrollReveal = new scrollReveal({
-				reset: true,
-				move: '50px'
-			});
-		})();
+		if($(window).width() > 900) {
+			(function() {
+				window.scrollReveal = new scrollReveal({
+					reset: true,
+					move: '50px'
+				});
+			})();
+		}
 	</script>
 
 </html>
