@@ -1,4 +1,7 @@
-
+/** 
+ * Author: 前小端
+ * Author URI: http://www.qianxiaoduan.com
+ */
 $(function() {
 	//菜单
 	var $navClick = $('#navClick'),
@@ -24,20 +27,19 @@ $(function() {
 		$(this).hide();
 	});
 	//top
-	$('#top').click(function(){
+	$('#top').click(function() {
 		$('body,html').animate({
 			scrollTop: 0
 		}, 300);
 		return false;
 	});
 	//code
-	$('#code').click(function(){
+	$('#code').click(function() {
 		$('.code-w').show();
 	});
-	$('.code-w a').click(function(){
+	$('.code-w a').click(function() {
 		$('.code-w').hide();
 		return false;
 	});
-	
-	
+
 })
