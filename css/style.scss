@@ -120,9 +120,9 @@ nav{float: right;position: relative;
 }
 .question{float: left;width: 50%;
     ul{padding: 0 20px;
-        li{margin-bottom: 30px;padding-left: 26px;position: relative;border-bottom: 1px solid #f1f1f1;padding-bottom: 20px;
-            h3{font-size: 18px;line-height: 45px;font-weight: normal;color: #333;}
-            p{font-size: 16px;line-height: 28px;color: #666;}
+        li{margin-bottom: 30px;padding-left: 26px;position: relative;border-bottom: 1px solid #f0f0f0;padding-bottom: 20px;
+            h3{font-size: 16px;line-height: 45px;font-weight: normal;color: #333;}
+            p{font-size: 14px;line-height: 28px;color: #666;}
             .i1{position:absolute;top:13px;left:0;float: left;font-size: 16px;height: 20px;width: 20px;background: #5e5e5e;line-height: 20px;text-align: center;color: #fff;border-radius: 3px;}
             .i2{position:absolute;top:50px;left:0;float: left;font-size: 16px;height: 20px;width: 20px;background: $color;line-height: 20px;text-align: center;color: #fff;border-radius: 3px;}
         }
