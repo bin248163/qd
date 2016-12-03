@@ -99,24 +99,19 @@ nav{float: right;position: relative;
         i{left:calc(100% - 60px);@include hover(.5s);}
     }   
 }
-.n-case{width: 31.3333%;float: left;margin: 0 1% 40px;position: relative;
-    div{position: relative;@include hover;overflow: hidden;
-        &:before{position: absolute;top: 0;left: 0;width: 100%;height: 100%;content: "";@include hover(.5s);z-index: 1;}
-        img{@include hover(.5s);}
+.n-case{width: 1300px;overflow: hidden;
+   ul{
+       li{float: left;border: 1px solid #e0e0e0;width: 218px;margin: 0 25px 25px 0;
+            .case_img{padding-top: 66%;background-position: center;background-size: cover;width: 100%;height: 0;}
+            h2{padding: 0 10px;font-size: 14px;line-height: 30px;}
+            h3{padding:0 10px 5px;border-bottom: 1px solid #e0e0e0;font-size: 14px;line-height: 22px;color: #666;}
+       }
+   }   
+}
+.works-icon{padding: 5px 0;background: #f6f6f6;line-height: 20px;
+    span{margin-left: 9px;line-height: 16px;display: inline-block;position: relative;padding-left: 15px;
+        i{position: absolute;left: 0;top: 0;color: #999;}
     }
-    a{position: absolute;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 4;}
-    p{opacity: 0;filter: alpha(opacity=0);@include hover(.5s);line-height: 60px;text-align:center;font-size: 25px;position:absolute;top: 50%;margin-top: -30px;left: 0;width: 100%;color: #fff;z-index: 2;}
-    i{opacity: 0;filter: alpha(opacity=0);font-size: 35px;width: 35px;height: 35px;z-index: 2;position: absolute;left: 20px;bottom: 10px;color: #fff;}
-    &:before{@include hover(.5s);position: absolute;top: 50%;left: 0;content: "";width: calc(100% - 4px);height: 0;border-left: 2px solid #ffe401;border-right: 2px solid #ffe401;z-index:2;}
-    &:after{@include hover(.5s);position: absolute;left: 50%;top: 0;content: "";height: calc(100% - 4px);width: 0;border-top: 2px solid #ffe401;border-bottom: 2px solid #ffe401;z-index:2;}
-    &:hover{
-        &:before{height: 100%;top: 0;}
-        &:after{width: 100%;left: 0;}
-        div:before{background:$color;}
-        img{transform: scale(1.1,1.1);}
-        p,i{opacity: 1;filter: alpha(opacity=100);}
-        i{left:calc(100% - 60px);@include hover(.5s);}
-    }   
 }
 .question{float: left;width: 50%;
     ul{padding: 0 20px;
@@ -276,12 +271,13 @@ nav{float: right;position: relative;
     }
 }
 
-@font-face {font-family: "iconfont";
-  src: url('../fonts/iconfont.eot?t=1478676111524'); /* IE9*/
-  src: url('../fonts/iconfont.eot?t=1478676111524#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/iconfont.woff?t=1478676111524') format('woff'), /* chrome, firefox */
-  url('../fonts/iconfont.ttf?t=1478676111524') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('../fonts/iconfont.svg?t=1478676111524#iconfont') format('svg'); /* iOS 4.1- */
+@font-face {
+  font-family: 'iconfont';  /* project id 177519 */
+  src: url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.eot');
+  src: url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.svg#iconfont') format('svg');
 }
 
 .iconfont {
