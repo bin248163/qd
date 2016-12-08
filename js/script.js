@@ -2,6 +2,13 @@
  * Author: 前小端
  * Author URI: http://www.qianxiaoduan.com
  */
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0ebf6537d6b3ab9408e5515c16b0b3eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 $(function() {
 	//菜单
 	var $navClick = $('#navClick'),
