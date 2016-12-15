@@ -18,13 +18,13 @@ $width:1200px !default;//定义网站宽度
 
 body{background: #f6f5f5;}
 .header{background: #3e4147;;position: absolute;left: 0;top: 0;z-index: 999;width: 100%;box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);}
-.head{width: $width;margin: 0 auto;height: 80px;}
-.logo{float: left;padding: 5px 0;width:70px;}
+.head{margin: 0 auto;height: 70px;}
+.logo{float: left;padding: 2px 0;width:66px;}
 .logo-r{float: left;width: calc(100% - 60px);padding-left: 10px;font-size: 16px;line-height: 56px;display: none;color: #fff;}
 nav{float: right;position: relative;
     ul{float: left;
         li{float: left;
-            a{font-size: 15px;padding: 0 20px;display: block;height: 80px;line-height: 80px;color: #eee;
+            a{font-size: 15px;padding: 0 40px;display: block;height: 70px;line-height: 70px;color: #eee;
             }
             &:hover a{color: $color;}
             &.current-menu-item{
@@ -60,7 +60,7 @@ nav{float: right;position: relative;
 .container{width: $width;margin: 0 auto;
     &:after{display: block;content: "";clear: both;}
 }
-.banner-w{height: 600px;background: $color;width: 100%;margin-top: 80px;position: relative;}
+.banner-w{height: 600px;background: $color;width: 100%;margin-top: 70px;position: relative;}
 .banner_s{padding-top: 300px;text-align: center;color: #fff;width: 100%;margin: 0 auto;
     h2{font-size: 20px;font-weight: normal;}
     h1{font-size: 30px;padding: 20px 0;}
@@ -158,7 +158,7 @@ nav{float: right;position: relative;
 .advantage{width: 16.667%;float: left;text-align: center;@include hover(.5s);position: relative;
     img{width: 100%;}
     div{position: absolute;left: 0;top: 0;height: 100%;width: 100%;}
-    i{@include hover(.5s);margin: 60px auto 0;position:relative;font-size: 110px;line-height: 130px;color:#fff;
+    i{@include hover(.5s);margin: 60px auto 0;position:relative;font-size: 80px;line-height: 130px;color:#fff;
         &:before{width: 30px;border-bottom: 2px solid #fff;bottom: 0;left: 50%;margin-left: -15px;content: "";position: absolute;}
     }
     h2{@include hover;font-size: 18px;font-weight: normal;margin-top: 20px;color: #fff;}
@@ -303,11 +303,11 @@ nav{float: right;position: relative;
 
 @font-face {
   font-family: 'iconfont';  /* project id 177519 */
-  src: url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.eot');
-  src: url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_wqfdhpzinvghw7b9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_z7i04bqsr7t7f1or.eot');
+  src: url('//at.alicdn.com/t/font_z7i04bqsr7t7f1or.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_z7i04bqsr7t7f1or.woff') format('woff'),
+  url('//at.alicdn.com/t/font_z7i04bqsr7t7f1or.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_z7i04bqsr7t7f1or.svg#iconfont') format('svg');
 }
 
 .iconfont {
