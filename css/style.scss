@@ -147,7 +147,7 @@ nav{float: right;position: relative;
     }
 }
 .p_16{font-size: 16px;width:67%;float: right;}
-.case_a{border-radius: 5px;@include hover;display: block;margin: 40px auto 0;width: 300px;height: 50px;line-height: 50px;border: 1px solid $color;text-align: center;font-size: 16px;color: $color;
+.case_a{@include hover;display: block;margin: 60px auto 0;width: 300px;height: 50px;line-height: 50px;border: 1px solid $color;text-align: center;font-size: 16px;color: $color;
     &:hover{background: $color;color: #fff;}
 } 
 @keyframes before {
@@ -155,14 +155,23 @@ nav{float: right;position: relative;
     50%{width:0;}
     100% {width: 120px;}
 }
-.advantage{width: 16.667%;float: left;padding:40px 0;text-align: center;@include hover(.5s);margin-bottom: 40px;
+.advantage{width: 16.667%;float: left;text-align: center;@include hover(.5s);position: relative;
     img{width: 100%;}
-    i{@include hover(.5s);background:#edeff1;width: 120px;height: 120px;margin: 0 auto;position: relative;border-radius: 50%;font-size: 70px;line-height: 130px;overflow: hidden;
-        &:before{width: 50%;border-bottom: 2px solid #fff;bottom: 0;left: 50%;margin-left: -25px;}
+    div{position: absolute;left: 0;top: 0;height: 100%;width: 100%;}
+    i{@include hover(.5s);margin: 60px auto 0;position:relative;font-size: 110px;line-height: 130px;color:#fff;
+        &:before{width: 30px;border-bottom: 2px solid #fff;bottom: 0;left: 50%;margin-left: -15px;content: "";position: absolute;}
     }
-    h2{@include hover;font-size: 20px;font-weight: normal;margin-top: 20px;}
-    p{@include hover;font-size: 14px;}
-    
+    h2{@include hover;font-size: 18px;font-weight: normal;margin-top: 20px;color: #fff;}
+    a{display: block;width: 100px;border: 1px solid #d6d6d6;line-height: 38px;color: #f1f1f1;opacity: 0;@include hover(.7s);position: absolute;left: 50%;margin-left: -51px;bottom: 60px;}  
+    &:hover{
+        div{background: rgba(238,71,71,.5);
+            i{margin: 40px auto 0;}
+        }
+        a{opacity: 1;bottom: 100px;}
+    } 
+}
+.adva_a{@include hover;display: block;margin: 60px auto 60px;width: 300px;height: 50px;line-height: 50px;border: 1px solid #fff;text-align: center;font-size: 16px;color: #fff;
+    &:hover{background: $color;color: #fff;}
 }
 @keyframes filp {
     0%{opacity: 0;transform: perspective(400px) rotate3d(0,1,0,90deg);}
