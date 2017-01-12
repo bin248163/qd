@@ -6,9 +6,9 @@
 * 页面中小图标部分全部使用了字体图标，便于修改
 * 添加了简单的页面滚动动画
 
-[Demo](http://www.qianxiaoduan.com/wz/qd)
+[Demo](http://www.qianxiaoduan.com/)
 
-[My blog](http://www.qianxiaoduan.com/)
+[My blog](http://blog.qianxiaoduan.com/)
 
 ![wordpress企业站模板](https://raw.githubusercontent.com/bin248163/qd/master/images/home.jpg)
 
