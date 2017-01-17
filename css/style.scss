@@ -17,14 +17,14 @@ $color:#ee4747 !default;//定义全局主色
 $width:1200px !default;//定义网站宽度
 
 body{background: #f6f5f5;}
-.header{background: #3e4147;;position: absolute;left: 0;top: 0;z-index: 999;width: 100%;box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);}
+.header{background: #fff;;position: absolute;left: 0;top: 0;z-index: 999;width: 100%;box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);}
 .head{margin: 0 auto;height: 70px;}
 .logo{float: left;padding: 2px 0;width:66px;}
 .logo-r{float: left;width: calc(100% - 60px);padding-left: 10px;font-size: 16px;line-height: 56px;display: none;color: #fff;}
 nav{float: right;position: relative;
     ul{float: left;
         li{float: left;
-            a{font-size: 15px;padding: 0 40px;display: block;height: 70px;line-height: 70px;color: #eee;
+            a{font-size: 15px;padding: 0 40px;display: block;height: 70px;line-height: 70px;
             }
             &:hover a{color: $color;}
             &.current-menu-item{
