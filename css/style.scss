@@ -155,7 +155,7 @@ nav{float: right;position: relative;
     50%{width:0;}
     100% {width: 120px;}
 }
-.advantage{width: 16.667%;float: left;text-align: center;@include hover(.5s);position: relative;
+.advantage{width: 16.6667%;float: left;text-align: center;@include hover(.5s);position: relative;
     img{width: 100%;}
     div{position: absolute;left: 0;top: 0;height: 100%;width: 100%;}
     i{@include hover(.5s);margin: 60px auto 0;position:relative;font-size: 80px;line-height: 130px;color:#fff;
@@ -396,6 +396,9 @@ nav{float: right;position: relative;
     background:#fe5e52;
 }
 .if{width: 100%;height: 500px;}
+@media only screen and (max-width: 1684px) {
+.main_case{width: 100%;}
+}
 @media only screen and (max-width: 1300px) {
     .header{position: fixed;}
     .head{width: 100%;}
