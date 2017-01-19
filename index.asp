@@ -1,51 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-	<head>
-		<meta charset="UTF-8">
-		<title>前小端-专业前端开发外包平台</title>
-		<meta name="keywords" content="WEB前端外包,PSD转HTML,WEB网站前端外包,响应式网站外包服务" />
-		<meta name="description" content="前小端是一个专注于网站WEB前端外包，如手写HTML/CSS/JS代码相关技术服务，主要提供：PSD转HMTL、PSD整合CMS、HTML5响应式网站、移动手机建站等服务。" />
-		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-		<link href="css/style.css" rel="stylesheet" />
-	</head>
-
-	<body>
-		<div class="header">
-			<div class="head">
-				<div class="logo">
-					<a href=""><img src="images/1.png" /></a>
-				</div>
-				<div class="logo-r">前小端-前端开发</div>
-				<div class="nav" id="navClick">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div class="close-top" id="closeTop"></div>
-				<nav id="nav">
-					<ul>
-						<li>
-							<a href="index.html">首页</a>
-						</li>
-						<li>
-							<a href="case.html">案例中心</a>
-						</li>
-						<li>
-							<a href="http://blog.qianxiaoduan.com/" target="_blank">技术前沿</a>
-						</li>
-						<li>
-							<a href="question.html">常见问题</a>
-						</li>
-						<li>
-							<a href="about.html">关于我们</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="nav-bj" id="navbj"></div>
-		</div>
+<!--#include file="head.asp"-->
 		<div class="banner-w">
 
 			<div class="swiper-container">
@@ -102,79 +55,81 @@
 				<p>纯手工前端代码编写，严格遵循W3C国际化标准，浏览速度快更有利于seo</p>
 			</div>
 			<div class="case">
-				<div>
-					<img src="images/case1.png" />
-					<p>法律服务</p>
-					<i class="iconfont">&#xe61f;</i>
-				</div>
-				<a href=""></a>
-			</div>
-			<div class="case">
-				<a href="">
+				<a href="case.asp">
 					<div>
-						<img src="images/case2.png" />
-						<p>法律服务</p>
+						<img src="images/case1.jpg" />
+						<p>案例1</p>
 						<i class="iconfont">&#xe61f;</i>
 					</div>
 				</a>
 			</div>
 			<div class="case">
-				<a href="">
+				<a href="case.asp">
 					<div>
-						<img src="images/case1.png" />
-						<p>法律服务</p>
+						<img src="images/case2.jpg" />
+						<p>案例2</p>
 						<i class="iconfont">&#xe61f;</i>
 					</div>
 				</a>
 			</div>
 			<div class="case">
-				<a href="">
+				<a href="case.asp">
 					<div>
-						<img src="images/case2.png" />
-						<p>法律服务</p>
+						<img src="images/case3.jpg" />
+						<p>案例3</p>
 						<i class="iconfont">&#xe61f;</i>
 					</div>
 				</a>
 			</div>
 			<div class="case">
-				<a href="">
+				<a href="case.asp">
 					<div>
-						<img src="images/case1.png" />
-						<p>法律服务</p>
+						<img src="images/case4.jpg" />
+						<p>案例4</p>
 						<i class="iconfont">&#xe61f;</i>
 					</div>
 				</a>
 			</div>
 			<div class="case">
-				<a href="">
+				<a href="case.asp">
 					<div>
-						<img src="images/case2.png" />
-						<p>法律服务</p>
+						<img src="images/case5.jpg" />
+						<p>案例5</p>
 						<i class="iconfont">&#xe61f;</i>
 					</div>
 				</a>
 			</div>
 			<div class="case">
-				<a href="">
+				<a href="case.asp">
 					<div>
-						<img src="images/case1.png" />
-						<p>法律服务</p>
+						<img src="images/case6.jpg" />
+						<p>案例6</p>
 						<i class="iconfont">&#xe61f;</i>
 					</div>
 				</a>
 			</div>
 			<div class="case">
-				<a href="">
+				<a href="case.asp">
 					<div>
-						<img src="images/case2.png" />
-						<p>法律服务</p>
+						<img src="images/case7.jpg" />
+						<p>案例7</p>
 						<i class="iconfont">&#xe61f;</i>
 					</div>
 				</a>
 			</div>
+			<div class="case">
+				<a href="case.asp">
+					<div>
+						<img src="images/case8.jpg" />
+						<p>案例8</p>
+						<i class="iconfont">&#xe61f;</i>
+					</div>
+				</a>
+			</div>
+			
 
 		</div>
-		<a href="" class="case_a" style="margin-bottom: 60px;">查看更多案例</a>
+		<a href="case.asp" class="case_a" style="margin-bottom: 60px;">查看更多案例</a>
 
 		<div class="main" style="background: #363c40;">
 			<div class="title">
@@ -187,7 +142,7 @@
 					<div>
 						<i class="iconfont">&#xe60b;</i>
 						<h2>响应式解决方案</h2>
-						<a href="">查看详细</a>
+						<a href="case.html">查看详细</a>
 					</div>
 				</div>
 				<div class="advantage">
@@ -195,7 +150,7 @@
 					<div>
 						<i class="iconfont">&#xe626;</i>
 						<h2>微网站解决方案</h2>
-						<a href="">查看详细</a>
+						<a href="case.html">查看详细</a>
 					</div>
 				</div>
 				<div class="advantage">
@@ -203,7 +158,7 @@
 					<div>
 						<i class="iconfont">&#xe853;</i>
 						<h2>行业平台解决方案</h2>
-						<a href="">查看详细</a>
+						<a href="case.html">查看详细</a>
 					</div>
 				</div>
 				<div class="advantage">
@@ -211,7 +166,7 @@
 					<div>
 						<i class="iconfont">&#xe604;</i>
 						<h2>SEO网站解决方案</h2>
-						<a href="">查看详细</a>
+						<a href="case.html">查看详细</a>
 					</div>
 				</div>
 				<div class="advantage">
@@ -219,7 +174,7 @@
 					<div>
 						<i class="iconfont">&#xe628;</i>
 						<h2>营销型网站解决方案</h2>
-						<a href="">查看详细</a>
+						<a href="case.html">查看详细</a>
 					</div>
 				</div>
 				<div class="advantage">
@@ -227,11 +182,11 @@
 					<div>
 						<i class="iconfont">&#xe601;</i>
 						<h2>集团上市公司官网解决方案</h2>
-						<a href="">查看详细</a>
+						<a href="case.html">查看详细</a>
 					</div>
 				</div>
 			</div>
-			<a href="" class="adva_a">查看更多解决方案</a>
+			<a href="case.asp" class="adva_a">查看更多解决方案</a>
 		</div>
 		<div class="customer">
 			<div class="title">
@@ -353,148 +308,4 @@
 			<h2>您是否希望开始一个新项目？</h2>
 			<a href="tencent://message/?uin=1047576335&Site=前小端&Menu=yes">立即咨询</a>
 		</div>
-		<div class="bottom">
-			<div class="container">
-				<div class="bot">
-					<h3>常用工具</h3>
-					<ul>
-						<li>
-							<a href="http://fts.aliyun.com" target="_blank">阿里前端测试</a>
-						</li>
-						<li>
-							<a href="http://www.iconfont.cn/plus" target="_blank">字体图标</a>
-						</li>
-						<li>
-							<a href="http://caniuse.com/" target="_blank">兼容性查询</a>
-						</li>
-						<li>
-							<a href="">媒体资讯</a>
-						</li>
-					</ul>
-				</div>
-				<div class="bot">
-					<h3>服务项目</h3>
-					<ul>
-						<li>
-							<a href="">PSD转HTML</a>
-						</li>
-						<li>
-							<a href="">HTML5响应式</a>
-						</li>
-						<li>
-							<a href="">HTML5移动端</a>
-						</li>
-						<li>
-							<a href="">H5设计制作</a>
-						</li>
-					</ul>
-				</div>
-				<div class="bot">
-					<h3>友情链接</h3>
-					<ul>
-						<li>
-							<a href="https://shop151980538.taobao.com/?spm=a230r.7195193.1997079397.2.pEuJRi" target="_blank" rel="noopener">我们的淘宝店铺</a>
-						</li>
-						<li>
-							<a href="https://shop245996959.taobao.com/?spm=a230r.7195193.1997079397.2.ip6SDG" target="_blank" rel="noopener">如画里设计</a>
-						</li>
-						<li>
-							<a href="http://blog.qianxiaoduan.com/" target="_blank" rel="noopener">前小端博客</a>
-						</li>
-						<li>
-							<a href="">前小端</a>
-						</li>
-					</ul>
-				</div>
-				<div class="bot">
-					<h3>联系我们</h3>
-					<ul>
-						<li>
-							<a href="">服务QQ：1047576335</a>
-						</li>
-						<li>
-							<a href="">服务邮箱：1047576335@qq.com</a>
-						</li>
-						<li>
-							<a href="">我们的地址：西安市未央区利君V时代</a>
-						</li>
-						<li>
-							<a href="">加入我们</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="copyright">版权所有 © 2016 前小端-前端开发 浙ICP备16030011号-1 </div>
-		<div class="right">
-
-			<ul>
-				<li>
-					<div class="right_list" id="code"><i class="iconfont">&#x3488;</i>微信公众号</div>
-				</li>
-				<li>
-					<div class="right_list">
-						<a href="tencent://message/?uin=1047576335&Site=前小端&Menu=yes" target="_blank" rel="noopener"><i class="iconfont">&#xe607;</i>QQ咨询</a>
-					</div>
-				</li>
-				<li>
-					<div class="right_list" id="weibo">
-						<a href="http://weibo.com/signup/signup.php?inviteCode=5819460711" target="_blank" rel="noopener"><i class="iconfont">&#xe64d;</i>新浪微博</a>
-					</div>
-				</li>
-				<li>
-					<div class="right_list">
-						<a href="http://www.taobao.com/webww/ww.php?ver=3&touid=tb913292_00&siteid=cntaobao&status=1&charset=utf-8" target="_blank" rel="noopener"><i class="iconfont">&#xe646;</i>旺旺咨询</a>
-					</div>
-				</li>
-				<li>
-					<div class="right_list" id="top"><i class="iconfont">&#xe696;</i>返回顶部</div>
-				</li>
-			</ul>
-
-		</div>
-
-		<div class="code-w">
-			<div class="code">
-				<img src="images/code.jpg" alt="" />
-				<p>扫描二维码关注我们：前小端-前端开发</p>
-				<a href="">确认</a>
-			</div>
-		</div>
-	</body>
-	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-	<script src="js/swiper.min.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/scrollReveal.js"></script>
-	<script type="text/javascript">
-		window.onload = function() {
-			var mySwiper = new Swiper('.swiper-container', {
-				direction: 'horizontal',
-				pagination: '.swiper-pagination',
-				loop: true,
-				autoplay: 4000,
-				autoplayDisableOnInteraction: false,
-				/*用户操作停止后不停止*/
-				paginationClickable: true,
-				/*分页器*/
-				grabCursor: true,
-				prevButton: '.swiper-button-prev',
-				nextButton: '.swiper-button-next',
-				onSlideChangeStart: function() {
-					//回调函数
-				}
-			});
-		};
-	</script>
-	<script>
-		if($(window).width() > 900) {
-			(function() {
-				window.scrollReveal = new scrollReveal({
-					reset: true,
-					move: '50px'
-				});
-			})();
-		}
-	</script>
-
-</html>
+<!--#include file="footer.asp"-->

@@ -1,70 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-	<head>
-		<meta charset="UTF-8">
-		<title>前小端-专业前端开发外包平台</title>
-		<meta name="keywords" content="WEB前端外包,PSD转HTML,WEB网站前端外包,响应式网站外包服务" />
-		<meta name="description" content="前小端是一个专注于网站WEB前端外包，如手写HTML/CSS/JS代码相关技术服务，主要提供：PSD转HMTL、PSD整合CMS、HTML5响应式网站、移动手机建站等服务。" />
-		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-		<link href="css/style.css" rel="stylesheet" />
-	</head>
-
-	<body>
-		<div class="header">
-			<div class="head">
-				<div class="logo">
-					<img src="images/1.png" />
-				</div>
-				<div class="logo-r">前小端-前端开发</div>
-				<div class="nav" id="navClick">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div class="close-top" id="closeTop"></div>
-				<nav id="nav">
-					<ul>
-						<li>
-							<a href="index.html">首页</a>
-						</li>
-						<li>
-							<a href="case.html">案例中心</a>
-						</li>
-						<li>
-							<a href="news.html">技术前沿</a>
-						</li>
-						<li>
-							<a href="question.html">常见问题</a>
-						</li>
-						<li>
-							<a href="about.html">关于我们</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="nav-bj" id="navbj"></div>
-		</div>
-
-		<div class="main_case">
-			<div class="box">
-				<a href="">
-					<div class="aimg">
-						<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/case1.png" />
-					</div>
-					<h2>按时打算萨达阿萨德</h2>
-				</a>
-				<div class="info">
-					<div class="author">
-						<img src="images/1.png" alt="" />
-						<span>刹那芳华</span>
-					</div>
-					<div class="time">8天前</div>
-				</div>
-
-			</div>
-		</div>
 		<div class="bottom">
 			<div class="container">
 				<div class="bot">
@@ -111,7 +44,7 @@
 							<a href="https://shop245996959.taobao.com/?spm=a230r.7195193.1997079397.2.ip6SDG" target="_blank" rel="noopener">如画里设计</a>
 						</li>
 						<li>
-							<a href="">前小端</a>
+							<a href="http://blog.qianxiaoduan.com/" target="_blank" rel="noopener">前小端博客</a>
 						</li>
 						<li>
 							<a href="">前小端</a>
@@ -137,20 +70,27 @@
 				</div>
 			</div>
 		</div>
-		<div class="copyright">版权所有 © 2016 前小端-前端开发 浙ICP备16030011号-1 </div>
+		<div class="copyright">版权所有 © 2017 前小端-前端开发 浙ICP备16030011号-1 </div>
 		<div class="right">
+
 			<ul>
 				<li>
 					<div class="right_list" id="code"><i class="iconfont">&#x3488;</i>微信公众号</div>
 				</li>
 				<li>
-					<div class="right_list"><i class="iconfont">&#xe607;</i>QQ咨询</div>
+					<div class="right_list">
+						<a href="tencent://message/?uin=1047576335&Site=前小端&Menu=yes" target="_blank" rel="noopener"><i class="iconfont">&#xe607;</i>QQ咨询</a>
+					</div>
 				</li>
 				<li>
-					<div class="right_list"><i class="iconfont">&#xe64d;</i>新浪微博</div>
+					<div class="right_list" id="weibo">
+						<a href="http://weibo.com/signup/signup.php?inviteCode=5819460711" target="_blank" rel="noopener"><i class="iconfont">&#xe64d;</i>新浪微博</a>
+					</div>
 				</li>
 				<li>
-					<div class="right_list"><i class="iconfont">&#xe646;</i>商桥咨询</div>
+					<div class="right_list">
+						<a href="http://www.taobao.com/webww/ww.php?ver=3&touid=tb913292_00&siteid=cntaobao&status=1&charset=utf-8" target="_blank" rel="noopener"><i class="iconfont">&#xe646;</i>旺旺咨询</a>
+					</div>
 				</li>
 				<li>
 					<div class="right_list" id="top"><i class="iconfont">&#xe696;</i>返回顶部</div>
@@ -158,6 +98,7 @@
 			</ul>
 
 		</div>
+
 		<div class="code-w">
 			<div class="code">
 				<img src="images/code.jpg" alt="" />
@@ -169,6 +110,7 @@
 	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/scrollReveal.js"></script>
 	<script type="text/javascript">
 		window.onload = function() {
 			var mySwiper = new Swiper('.swiper-container', {
@@ -189,11 +131,6 @@
 			});
 		};
 	</script>
-	<script src="js/jquery.scrollLoading.js"></script>
-	<script type="text/javascript">
-		$(function() {
-			$(".scrollLoading").scrollLoading();
-		})
-	</script>
+	
 
 </html>
